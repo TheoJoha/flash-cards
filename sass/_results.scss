@@ -43,8 +43,8 @@
 
 .card-back {
     background: $header-color;
-    color: header-bg;
-    transform: rotatY(180deg);
+    color: black;
+    transform: rotateY(180deg);
     @include flexCenter;
 }
 

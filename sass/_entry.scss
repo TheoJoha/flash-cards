@@ -29,7 +29,7 @@
 
 .main-entry__button {
     background: $go-button;
-    color: $ehader-color;
+    color: $header-color;
 }
 
 .main-entry__input:focus,
@@ -47,6 +47,6 @@
     .main-entry__button {
         font-size: 2rem;
         width: 200px;
-        height: 200px;
+        height: 150px;
     }
 }

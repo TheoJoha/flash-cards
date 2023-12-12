@@ -8,10 +8,10 @@ $number = filter_input(INPUT_GET, "num", FILTER_SANITIZE_NUMBER_INT);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiplication Flash Cards</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
 </head>
 <body>
-    <?php include("./view/header.php"); ?>
+    <?php include("view/header.php"); ?>
     <?php  
         if ($number) {
             include("view/results.php");
@@ -19,6 +19,6 @@ $number = filter_input(INPUT_GET, "num", FILTER_SANITIZE_NUMBER_INT);
             include("view/form.php");
         }
     ?>
-    <?php include("./view/footer.php"); ?>
+    <?php include("view/footer.php"); ?>
 </body>
 </html>

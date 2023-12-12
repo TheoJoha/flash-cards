@@ -4,7 +4,8 @@
     z-index: 1;
 }
 
-.header, .footer {
+.header, 
+.footer {
     background: $header-bg;
     color: $header-color;
     font-size: 0.5rem;
@@ -27,7 +28,7 @@
 
 .header a,
 .footer a {
-    color: $ehader-color;
+    color: $header-color;
     text-decoration: none;
 }
 
