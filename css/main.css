@@ -79,4 +79,21 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.main-entry__input,
+.main-entry__button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  padding: 0.25em;
+  border-radius: 15px;
+  width: 100px;
+  height: 73px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-entry__button {
+  background: limegreen;
 }/*# sourceMappingURL=main.css.map */

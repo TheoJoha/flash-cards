@@ -14,4 +14,39 @@
     flex-direction: column;
 }
 
-.main
+.main-entry__input,
+.main-entry__button {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    padding: 0.25em;
+    border-radius: 15px;
+    width: 100px;
+    height: 73px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-entry__button {
+    background: $go-button;
+    color: $ehader-color;
+}
+
+.main-entry__input:focus,
+.main-entry__button:focus {
+    outline: none;
+    box-shadow: $shadow;
+}
+
+@include mq(768px) {
+    .main-entry {
+        font-size: 1rem;
+    }
+
+    .main-entry__input,
+    .main-entry__button {
+        font-size: 2rem;
+        width: 200px;
+        height: 200px;
+    }
+}
